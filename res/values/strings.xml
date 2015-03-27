@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JPPConcept</string>
+    <string name="overflow_inloggen">Inloggen</string>
+    <string name="label_gebruikersnaam">Gebruikersnaam</string>
+    <string name="label_watchtwoord">Wachtwoord</string>
+    <string name="knop_inloggen">Inloggen</string>
+    <string name="knop_registreren">Registreren</string>
+    <string name="knop_inloggen_met_g_plus">Inloggen met g+</string>
+    <string name="knop_inloggen_met_facebook">Inloggen met Facebook</string>
+    <string name="overflow_exit">Exit</string>
+    <string name="overflow_dossier_aanmaken">Dossier aanmaken</string>
+    <string name="vraag">Lorem ipsum dolor sit amet, sea ex commune
+        insolens, ad vix facilis omnesque consulatu, quando commodo id pro.
+        Agam urbanitas ea pro, affert definiebas quo te. Ius at graeco adipiscing,
+        quem liber pri in, mei ex agam dictas reformidans. Legere maluisset ex vel,
+        pro movet admodum ea. An nam quod aperiri urbanitas. Eros elitr fabulas sea
+        no.</string>
+    <string name="antwoord_hint">antwoord</string>
+    <string name="email_hint">e-mail mede-initiatiefnemer</string>
+    <string name="dossier_aanmaken_knop">Dossier aanmaken</string>
+</resources>

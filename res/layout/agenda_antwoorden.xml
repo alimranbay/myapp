@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Vraag"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Antwoorden:"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam blandit mauris ut sodales pellentesque. Cras vehicula lectus at elit vehicula accumsan. Mauris in nunc urna. "/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam blandit mauris ut sodales pellentesque. Cras vehicula lectus at elit vehicula accumsan. Mauris in nunc urna. "/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam blandit mauris ut sodales pellentesque. Cras vehicula lectus at elit vehicula accumsan. Mauris in nunc urna. "/>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_weight="1"></LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="bottom"
+                  android:background="#ff000fff"
+                  android:orientation="horizontal"
+            android:baselineAligned="false">
+        <Button android:id="@+id/test_button"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="test"
+                android:layout_weight="1"
+                android:background="#A4A4A4"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_gebruikersnaam"
+            />
+    <EditText
+            android:id="@+id/gebruikersnaam"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|textAutoCorrect"
+            android:maxEms="8"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_watchtwoord"
+            />
+    <EditText
+            android:id="@+id/wachtwoord"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|textAutoCorrect"
+            android:maxEms="8"/>
+
+    <Button
+            android:id="@+id/inloggen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/knop_inloggen"
+            android:minWidth="200dp"
+            />
+    <Button
+            android:id="@+id/inloggen_met_g_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/knop_inloggen_met_g_plus"
+            android:minWidth="200dp"/>
+    <Button
+            android:id="@+id/inloggen_met_facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/knop_inloggen_met_facebook"
+            android:minWidth="200dp"/>
+    <Button
+            android:id="@+id/registreren"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/knop_registreren"
+            android:minWidth="200dp"/>
+</LinearLayout>
