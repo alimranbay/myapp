@@ -1,10 +1,12 @@
 package com.example.tabsswipe.adapter;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.ListFragment;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import com.example.myapp.GeplandeAgendaModule;
 
 public class ToekomstigFragment extends ListFragment {
 	@Override
@@ -19,6 +21,7 @@ public class ToekomstigFragment extends ListFragment {
 
 	@Override
 	public void onListItemClick(ListView l, View v, int position, long id) {
-		// do something with the data
+		Intent intent = new Intent(getActivity(), GeplandeAgendaModule.class);
+		startActivity(intent);
 	}
 }

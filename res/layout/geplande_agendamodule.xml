@@ -14,18 +14,19 @@
                 />
         <ImageView android:layout_width="48px"
                    android:layout_height="48px"
-                   android:src="@drawable/unlocked"/>
+                   android:src="@drawable/timer"/>
     </LinearLayout>
     <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
-            android:text="\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam blandit mauris ut sodales pellentesque. Cras vehicula lectus at elit vehicula accumsan. Mauris in nunc urna. "/>
+              android:text="\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam blandit mauris ut sodales pellentesque. Cras vehicula lectus at elit vehicula accumsan. Mauris in nunc urna. "/>
     <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
-            android:text="Module wordt afgesloten na 4d 5h 6m 20s"/>
+              android:text="Module wordt afgesloten na 4d 5h 6m 20s"/>
     <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
-            android:text="Beloning:"/>
+              android:text="Lancering:"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:text="10d 10u 10m 10s"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:text="Beloning:\n een reis naar Puerto Rico, zie afbeelding"/>
     <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
                android:src="@drawable/rico"/>
-    <Button android:id="@+id/toon_antwoorden"
-            android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:text="Toon antwoorden"/>
 
 </LinearLayout>
