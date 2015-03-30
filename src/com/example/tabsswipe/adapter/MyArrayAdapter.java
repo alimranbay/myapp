@@ -30,10 +30,9 @@ public class MyArrayAdapter extends ArrayAdapter<String> {
 		TextView textView = (TextView) rowView.findViewById(R.id.firstLine);
 		ImageView imageView = (ImageView) rowView.findViewById(R.id.icon);
 		textView.setText(values[position]);
-		// change the icon for Windows and iPhone
 		String s = values[position];
-		if (s.startsWith("iPhone")) {
-			imageView.setImageResource(R.drawable.ic_launcher);
+		if (s.startsWith("plaatsing")) {
+			imageView.setImageResource(R.drawable.lock);
 		} else {
 			imageView.setImageResource(R.drawable.ic_launcher);
 		}

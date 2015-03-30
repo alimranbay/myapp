@@ -13,11 +13,9 @@ public class ActiefFragment extends ListFragment {
 	@Override
 	public void onActivityCreated(Bundle savedInstanceState) {
 		super.onActivityCreated(savedInstanceState);
-		String[] values = new String[] { "Plaatsing speelplaats", "vergroening", "vermeerderen van patrouilles",
+		String[] values = new String[] { "plaatsing speelplaats", "vergroening", "vermeerderen van patrouilles",
 				"plaatsing van feestzaal", "gebouwen renoveren of vervangen", "indeling verkeer",
 				"investeren in verwijderen van grafitti", "nieuwe weg", "investeren in nieuwe trams", "camerabewaking" };
-		//ArrayAdapter<String> adapter = new ArrayAdapter<>(getActivity(),
-		//		R.layout.rowlayout, R.id.listview, values);
 		ArrayAdapter<String> adapter = new MyArrayAdapter(getActivity(), values);
 
 		setListAdapter(adapter);
