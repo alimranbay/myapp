@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.ListFragment;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import com.example.myapp.ActieveAgendaModule;
 import com.example.myapp.ActieveDossierModule;
@@ -16,9 +15,9 @@ public class ActiefFragment extends ListFragment {
 		String[] values = new String[] { "plaatsing speelplaats", "vergroening", "vermeerderen van patrouilles",
 				"plaatsing van feestzaal", "gebouwen renoveren of vervangen", "indeling verkeer",
 				"investeren in verwijderen van grafitti", "nieuwe weg", "investeren in nieuwe trams", "camerabewaking" };
-		ArrayAdapter<String> adapter = new MyArrayAdapter(getActivity(), values);
+		/*ArrayAdapter<String> adapter = new MyArrayAdapter(getActivity(), values);
 
-		setListAdapter(adapter);
+		setListAdapter(adapter);*/
 	}
 
 	@Override
