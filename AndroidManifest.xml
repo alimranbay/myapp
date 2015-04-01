@@ -5,56 +5,56 @@
           android:versionName="1.0">
     <uses-sdk android:minSdkVersion="19"/>
     <application android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:theme="@style/LightThemeSelector">
-        <activity android:name=".MyActivity"
+        <activity android:name=".activities.MyActivity"
                   android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".ActieveAgendaModule"
+        <activity android:name=".activities.ActieveAgendaModule"
                   android:label="Actieve agenda module"
-                  android:parentActivityName=".MyActivity">
+                  android:parentActivityName=".activities.MyActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".AgendaAntwoorden"
+        <activity android:name=".activities.AgendaAntwoorden"
                   android:label="Agenda antwoorden"
-                  android:parentActivityName=".ActieveAgendaModule">
+                  android:parentActivityName=".activities.ActieveAgendaModule">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".ActieveDossierModule"
+        <activity android:name=".activities.ActieveDossierModule"
                   android:label="Actieve Dossiermodule"
-                  android:parentActivityName=".MyActivity">
+                  android:parentActivityName=".activities.MyActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".InloggenActivity"
+        <activity android:name=".activities.InloggenActivity"
                   android:label="Inloggen"
-                  android:parentActivityName=".MyActivity">
+                  android:parentActivityName=".activities.MyActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".GeplandeAgendaModule"
+        <activity android:name=".activities.GeplandeAgendaModule"
                   android:label="Geplande Agendamodule"
-                  android:parentActivityName=".MyActivity">
+                  android:parentActivityName=".activities.MyActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".GeslotenAgendaModule"
+        <activity android:name=".activities.GeslotenAgendaModule"
                   android:label="Gesloten Agendamodule"
-                  android:parentActivityName=".MyActivity">
+                  android:parentActivityName=".activities.MyActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
