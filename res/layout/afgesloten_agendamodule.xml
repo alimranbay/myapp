@@ -17,7 +17,7 @@
                        android:src="@drawable/lock"/>
         </LinearLayout>
         <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
-                  android:text="\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam blandit mauris ut sodales pellentesque. Cras vehicula lectus at elit vehicula accumsan. Mauris in nunc urna. "/>
+                  android:text="@string/lipsum"/>
         <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
                   android:text="Module wordt afgesloten na 4d 5h 6m 20s"/>
         <TextView android:layout_width="match_parent" android:layout_height="wrap_content"

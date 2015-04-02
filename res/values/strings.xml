@@ -19,4 +19,7 @@
     <string name="antwoord_hint">antwoord</string>
     <string name="email_hint">e-mail mede-initiatiefnemer</string>
     <string name="dossier_aanmaken_knop">Dossier aanmaken</string>
+    <string name="lipsum">\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam blandit mauris ut sodales
+        pellentesque. Cras vehicula lectus at elit vehicula accumsan. Mauris in nunc urna.
+    </string>
 </resources>
