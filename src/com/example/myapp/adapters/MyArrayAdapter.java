@@ -7,17 +7,17 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-import com.example.myapp.models.ModuleRow;
+import com.example.myapp.models.Module;
 import com.example.myapp.R;
 
 /**
  * Created by Ali Imran on 26/03/2015.
  */
-public class MyArrayAdapter extends ArrayAdapter<ModuleRow> {
+public class MyArrayAdapter extends ArrayAdapter<Module> {
 	private final Context context;
-	private final ModuleRow[] values;
+	private final Module[] values;
 
-	public MyArrayAdapter(Context context, ModuleRow[] values) {
+	public MyArrayAdapter(Context context, Module[] values) {
 		super(context, R.layout.rowlayout, values);
 		this.context = context;
 		this.values = values;

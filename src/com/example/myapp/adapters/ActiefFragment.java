@@ -8,15 +8,15 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import com.example.myapp.activities.ActieveAgendaModule;
 import com.example.myapp.activities.ActieveDossierModule;
-import com.example.myapp.models.ModuleRow;
+import com.example.myapp.models.Module;
 import com.example.myapp.R;
 
 public class ActiefFragment extends ListFragment {
 	@Override
 	public void onActivityCreated(Bundle savedInstanceState) {
 		super.onActivityCreated(savedInstanceState);
-		ModuleRow[] values = new ModuleRow[] { new ModuleRow("Plaatsing speelplaats", "Description", R.drawable.ic_launcher) };
-		ArrayAdapter<ModuleRow> adapter = new MyArrayAdapter(getActivity(), values);
+		Module[] values = new Module[] { new Module("Plaatsing speelplaats", "Description", R.drawable.ic_launcher) };
+		ArrayAdapter<Module> adapter = new MyArrayAdapter(getActivity(), values);
 		setListAdapter(adapter);
 	}
 

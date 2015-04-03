@@ -16,11 +16,7 @@ public class MyActivity extends FragmentActivity implements ActionBar.TabListene
 	private ViewPager viewPager;
 	private TabsPagerAdapter mAdapter;
 	private ActionBar actionBar;
-	// Tab titles
-	private String[] tabs = { "Actief", "Afgesloten", "Toekomstig" };
-	/**
-	 * Called when the activity is first created.
-	 */
+
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -35,11 +31,6 @@ public class MyActivity extends FragmentActivity implements ActionBar.TabListene
 		actionBar.setHomeButtonEnabled(false);
 		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 
-		// Adding Tabs
-		/*for (String tab_name : tabs) {
-			actionBar.addTab(actionBar.newTab().setText(tab_name)
-					.setTabListener(this));
-		}*/
 		actionBar.addTab(actionBar.newTab().setIcon(R.drawable.unlock).setTabListener(this));
 		actionBar.addTab(actionBar.newTab().setIcon(R.drawable.lock).setTabListener(this));
 		actionBar.addTab(actionBar.newTab().setIcon(R.drawable.timer).setTabListener(this));
